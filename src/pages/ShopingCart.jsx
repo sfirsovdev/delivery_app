@@ -6,8 +6,8 @@ const ShopingCart = () => {
                 <li className="form__item">
                         <p>Input</p>
                 </li>
-          </ul>
-             
+        </ul>
+            
         </div>
     )
 }
