@@ -1,6 +1,8 @@
 import user from '../components/data/user.json';
 import Shops from '../components/Shops/Shops';
 import Profile from '../components/profile/Profile'
+import './Homepage.css'
+
 
 
 const Homepage = () => {
