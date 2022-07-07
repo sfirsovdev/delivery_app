@@ -1,4 +1,3 @@
-
 import {
   ShopCartContainer,
 } from './ShopCartStyled';
@@ -6,7 +5,7 @@ import {
 export default function ShopCart () {
   return (
     <ShopCartContainer>
-     
+
 
     </ShopCartContainer>
   );
