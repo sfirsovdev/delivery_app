@@ -23,6 +23,13 @@ const ShopingCart = () => {
                     <p>Adress:</p>
                     <p className='form__input'>Input</p>
                 </li>
+
+                <li className="form__item">
+                    <p>Azad:</p>
+                    <p className='form__input'>Input</p>
+                </li>
+
+                
         </ul>
             
         </div>

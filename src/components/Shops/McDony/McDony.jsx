@@ -1,53 +1,47 @@
 import PropTypes from 'prop-types';
-import {
-  ProfileContainer,
-  DescriptionContainer,
-  AvatarImage,
-  Name,
-  CartButton
-} from './McDonyStyled';
+import './McDonyStyled.css'
 
 export default function McDony({ username,  avatar }) {
   return (
-    <ProfileContainer>
-      <DescriptionContainer>
-        <AvatarImage src={avatar} alt="User avatar" />
-        <Name>{username}</Name>
-        <CartButton>Add to Cart</CartButton>
-      </DescriptionContainer>
+    < div className='ProfileContainer'>
+      <div className='DescriptionContainer'>
+        <div className='AvatarImage'  src={avatar} alt="User avatar" />
+        <div className='Name'>{username}</div>
+        <div className='CartButton'>Add to Cart</div>
+      </div>
 
-      <DescriptionContainer>
-        <AvatarImage src={avatar} alt="User avatar" />
-        <Name>{username}</Name>
-        <CartButton>Add to Cart</CartButton>
-      </DescriptionContainer>
+      <div className='DescriptionContainer'>
+        <div className='AvatarImage'  src={avatar} alt="User avatar" />
+        <div className='Name'>{username}</div>
+        <div className='CartButton'>Add to Cart</div>
+      </div>
 
-      <DescriptionContainer>
-        <AvatarImage src={avatar} alt="User avatar" />
-        <Name>{username}</Name>
-        <CartButton>Add to Cart</CartButton>
-      </DescriptionContainer>
+      <div className='DescriptionContainer'>
+        <div className='AvatarImage'  src={avatar} alt="User avatar" />
+        <div className='Name'>{username}</div>
+        <div className='CartButton'>Add to Cart</div>
+      </div>
 
-      <DescriptionContainer>
-        <AvatarImage src={avatar} alt="User avatar" />
-        <Name>{username}</Name>
-        <CartButton>Add to Cart</CartButton>
-      </DescriptionContainer>
+      <div className='DescriptionContainer'>
+        <div className='AvatarImage'  src={avatar} alt="User avatar" />
+        <div className='Name'>{username}</div>
+        <div className='CartButton'>Add to Cart</div>
+      </div>
 
-      <DescriptionContainer>
-        <AvatarImage src={avatar} alt="User avatar" />
-        <Name>{username}</Name>
-        <CartButton>Add to Cart</CartButton>
-      </DescriptionContainer>
+      <div className='DescriptionContainer'>
+        <div className='AvatarImage'  src={avatar} alt="User avatar" />
+        <div className='Name'>{username}</div>
+        <div className='CartButton'>Add to Cart</div>
+      </div>
 
-      <DescriptionContainer>
-        <AvatarImage src={avatar} alt="User avatar" />
-        <Name>{username}</Name>
-        <CartButton>Add to Cart</CartButton>
-      </DescriptionContainer>
+      <div className='DescriptionContainer'>
+        <div className='AvatarImage'  src={avatar} alt="User avatar" />
+        <div className='Name'>{username}</div>
+        <div className='CartButton'>Add to Cart</div>
+      </div>
       
 
-    </ProfileContainer>
+    </div>
   );
 }
 

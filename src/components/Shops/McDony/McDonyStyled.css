@@ -1,0 +1,28 @@
+.McDonyContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  float: right;
+  width:60%;
+  align-items: center;
+}
+
+.DescriptionContainer{ 
+  display: flex;
+  width: 30%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AvatarImage {
+  width: 140px;
+  height: 140px;
+}
+
+.CartButton {
+    text-align: center;
+    color: blue;
+
+}
+
+

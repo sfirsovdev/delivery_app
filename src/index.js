@@ -9,7 +9,7 @@ import { theme } from './theme';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/delivery_app/'>
     <ThemeProvider theme={theme}>
       <App/>
     </ThemeProvider>
