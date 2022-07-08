@@ -1,23 +1,18 @@
 import React from 'react';
-import { Routes, Route, NavLink } from 'react-router-dom';
-import { Homepage } from './pages/Homepage'
-import ShopingCart  from './pages/ShopingCart'
+import { Routes, Route } from 'react-router-dom';
+import ShopingCart from './pages/ShopingCart'
+import Header from './components/header/Header';
 
 
 
 const App = () => {
   return (
       <div>
-        <header className='header'>
-        <li className='li'>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li className='li'>
-          <NavLink to="/shopingcart">Shoping Cart</NavLink>
-        </li>
-        </header>
+        <Header>
+    
+        </Header>
         <Routes>
-          <Route path='/' element={<Homepage />} />
+          <Route path='/' element={<App />} />
           <Route path='/shopingcart' element={<ShopingCart />} />
         </Routes>
       </div>
