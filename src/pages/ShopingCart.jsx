@@ -6,9 +6,22 @@ import {
 
 export default function ShopingCart () {
     return (
-            <FormList>
-            <FormInput>
+            <FormList>Name:
+            <FormInput>Input
+            </FormInput>
+
+            Email:
+            <FormInput>Input
+            </FormInput>
+
+            Phone:
+            <FormInput>Input
+            </FormInput>
+
+            Address:
+            <FormInput>Input
             </FormInput>
             </FormList>
+            
             );
 }
